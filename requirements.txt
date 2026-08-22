@@ -1,0 +1,27 @@
+# ============================================================
+# ESG Controversy Prediction — Multi-Model Pipeline
+# Python 3.10
+# ============================================================
+
+# Core libraries
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Tree-based models
+xgboost==2.1.4
+
+# Explainability
+shap==0.49.1
+lime==0.2.0.1
+
+# Deep Learning (Transformer + NN)
+torch
+torchvision
+torchaudio
+
+# Optional (safe additions for plotting + SHAP stability)
+tqdm==4.66.4
+scipy==1.13.1
