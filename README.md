@@ -45,7 +45,7 @@ Quant_project/
 ├── requirements.txt                    # Pinned Python dependencies
 ├── README.md                           # This file
 │
-└── model_output/
+└── output/
     ├── xg_boost/         # Model (.pkl), metrics CSV, SHAP + LIME plots
     ├── random_forest/    # Model (.pkl), metrics CSV, SHAP plots
     ├── svm/              # Model (.pkl), metrics CSV, SHAP plots
@@ -71,8 +71,8 @@ If you have multiple Python versions installed, replace `python` with `python3.1
 **2. Clone the repository**
 
 ```bash
-git clone https://github.com/<ajaybansal072006>/<esg-controversy-prediction>.git
-cd <esg-controversy-prediction>
+git clone https://github.com/ajaybansal072006/esg-controversy-prediction.git
+cd esg-controversy-prediction
 ```
 
 **3. Create a virtual environment**
@@ -122,7 +122,7 @@ python esg_transformer_shap.py
 python esg_xgboost_lime.py
 ```
 
-Each script reads `esg_controversy_features.csv` and writes outputs to `model_output/<model_name>/`.
+Each script reads `esg_controversy_features.csv` and writes outputs to `output/<model_name>/`.
 
 ---
 
